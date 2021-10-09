@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #e9dbd8;
+}
+
+.navbar {
+  background: #ceb6c4;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.navbar-collapse {
+  justify-content: safe flex-end;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 50%;
+  min-width: 50%;
+  left: 0;
+  right: 0;
+  background-image: url("/image/stella.jpg");
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 20%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.description h1 {
+  color: #906579;
+}
+
+.description p {
+  color: #3f464d;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.description a {
+  color: #906579;
+}
+
+.description a:hover {
+  color: #3f464d;
+}
+
+.container {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  color: #906579;
+}
