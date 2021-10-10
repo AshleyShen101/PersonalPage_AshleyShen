@@ -33,7 +33,7 @@ body {
   min-width: 50%;
   left: 0;
   right: 0;
-  background-image: url("./image/stella.jpg");
+  background-image: url("/image/hobby-bg.jpg");
 }
 
 .description {
@@ -42,7 +42,7 @@ body {
   top: 20%;
   transform: translate(-50%, 50%);
   text-align: center;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(220, 198, 224, 0.6);
 }
 
 .description h1 {
@@ -70,26 +70,6 @@ body {
   color: #906579;
 }
 
-footer {
-  padding: 0;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 145%;
-  background-color: #ceb6c4;
-  border-top: .05rem;
-}
-
-#contact {
-  margin-bottom: 0;
-  text-align: center;
-}
-
-#contact h3 {
+.game-list {
   font-size: 20px;
-  color: white;
-}
-
-#contact p {
-  color: white;
 }
