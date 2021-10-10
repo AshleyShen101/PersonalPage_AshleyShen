@@ -33,7 +33,7 @@ body {
   min-width: 50%;
   left: 0;
   right: 0;
-  background-image: url("/image/hobby-bg.jpg");
+  background-image: url("../image/hobby-bg.jpg");
 }
 
 .description {
