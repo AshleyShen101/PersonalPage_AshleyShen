@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #e9dbd8;
+}
+
+.navbar {
+  background: #ceb6c4;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.navbar-collapse {
+  justify-content: safe flex-end;
+}
+
+.overlay {
+  position: absolute;
+  min-height:65%;
+  min-width: 50%;
+  left: 0;
+  right: 0;
+  background-image: url("../image/pacman.jpg");
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.description h1 {
+  color: white;
+}
+
+.container{
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  color: #906579;
+}
