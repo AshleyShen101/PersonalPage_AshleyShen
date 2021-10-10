@@ -7,12 +7,12 @@
   <meta name="description" content="Yuanyuan Shen Homepage">
   <meta name="author" content="Yuanyuan Shen">
   <!-- Icon -->
-  <link rel="icon" type="image/x-icon" href="image/icon_smiling_moon.png">
+  <link rel="icon" type="./image/x-icon" href="image/icon_smiling_moon.png">
   <title>YuanyuanShen's Homepage</title>
   <!--Bootstrap CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Main CSS -->
-  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="./css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
         <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="#hobby">Hobby</a></li>
+        <li class="nav-item"><a class="nav-link" href="./hobby.html">Hobby</a></li>
         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
       </ul>
@@ -41,15 +41,54 @@
       </div>
     </div>
   </header>
-  <!-- Education -->
-  <div class="container">
+  <main>
+    <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <h2 id="education">Education Background:</h2>
+      <!-- Education -->
+      <div id="education">
+        <h2><u>Education Background:</u></h2>
+        <br>
+        <ul>
+            <li>Northeastern Univeristy, San Jose, CA</li>
+            <li>Menlo College, Atherton, CA</li>
+            <ul>
+              <li>Nominated by Professor for FEI Scholarship; selected to join Rising Star professional networking program for Finance students</li>
+              <li>As the president of Asian Student Association. Lead 80-member club in preparing and producing large scale events like the Mid-Autumn Festival and the New Year Event to promote diversity and cross-cultural understanding.</li>
+            </ul>
+        </ul>
       </div>
     </div>
+    <div class="row">
+      <!--Experience-->
+      <div id="experience">
+        <h2><u>Experience:</u></h2>
+        <br>
+        <ul>
+          <li>Teaching Assistant | Northeastern Univeristy, San Jose</li>
+          <ul>
+            <li>Assisted Professor organize lab session and grading issues. (Discrete Mathmetics and Foundamental COmputer Science)</li>
+          </ul>
+          <li>Research and Development Assistant | Menlo College, Atherton</li>
+          <ul>
+            <li>Researched new and innovative Haier Rendanheyi management model (networked vs. hierarchical) in preparation to build out new undergraduate and graduate-level courses</li>
+            <a href="https://www.linkedin.com/company/rendanheyisiliconvalleycenter/">You can follow Rendanheyi Silicon Valley Center on Linkedin by clicking here</a>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <div class="row">
+      <footer id="contact">
+            <h3>Contact</h3>
+            <p>1501 Berryessa Rd, San Jose, CA 95133
+            <br/>shen.yuan@northeastern.edu
+            <br/><a href="https://www.linkedin.com/in/yuan-yuan-shen/">Linkedin</a>
+            <br/>+01 650 7042039</p>
+      </footer>
   </div>
   <!-- Main JS-->
-  <script src="/js/main.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
